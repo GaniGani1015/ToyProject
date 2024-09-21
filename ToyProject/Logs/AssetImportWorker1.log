@@ -503,3 +503,8 @@ Received Import Request.
 Start importing Assets/Model/kit/Previews/floor-diagonal.png using Guid(da32c61548b31284c954d7fadd47c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8256c1dafd5cd040daf0669bcdbdc936') in 0.024983 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
