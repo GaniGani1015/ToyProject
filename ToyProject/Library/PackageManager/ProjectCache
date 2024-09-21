@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638624955688826620
-    m_Hash: 1394525262
+      ticks: 638625006028007643
+    m_Hash: 2790349036
   m_LockFileStatus:
     m_FilePath: C:/Users/USER/Desktop/unity/ToyProject/ToyProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638624955688891842
-    m_Hash: 1835394934
+      ticks: 638625006028017651
+    m_Hash: 1259581936
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
