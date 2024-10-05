@@ -15,7 +15,7 @@ C:/Users/USER/Desktop/unity/ToyProject/ToyProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9317
+3948
 Successfully changed project path to: C:/Users/USER/Desktop/unity/ToyProject/ToyProject
 C:/Users/USER/Desktop/unity/ToyProject/ToyProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/USER/Desktop/unity/ToyProject/ToyProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15756] Host "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 2044526683 [EditorId] 2044526683 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5Q74B9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23428] Host "[IP] 192.168.219.103 [Port] 0 [Flags] 2 [Guid] 3778078209 [EditorId] 3778078209 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5Q74B9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15756] Host "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 2044526683 [EditorId] 2044526683 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5Q74B9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23428] Host "[IP] 192.168.219.103 [Port] 0 [Flags] 2 [Guid] 3778078209 [EditorId] 3778078209 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5Q74B9L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 21.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -64,55 +64,55 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     12129 MB
-    Driver:   31.0.15.3623
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032172 seconds.
-- Loaded All Assemblies, in  0.445 seconds
+Registered in 0.030513 seconds.
+- Loaded All Assemblies, in  0.392 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1799 ms
+Android Extension - Scanning For ADB Devices 1989 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.163 seconds
-Domain Reload Profiling: 2602ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  2.301 seconds
+Domain Reload Profiling: 2687ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (145ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (125ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (113ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2163ms)
+	FinalizeReload (2301ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2095ms)
+		SetupLoadedEditorAssemblies (2250ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1945ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (2095ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 2602ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.820 seconds
-Refreshing native plugins compatible for Editor in 10.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.187 seconds
+Refreshing native plugins compatible for Editor in 9.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.715 seconds
-Domain Reload Profiling: 1524ms
-	BeginReloadAssembly (179ms)
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1965ms
+	BeginReloadAssembly (381ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (532ms)
-		LoadAssemblies (472ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (654ms)
+		LoadAssemblies (719ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (201ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (715ms)
+	FinalizeReload (790ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
+		SetupLoadedEditorAssemblies (637ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (25ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 12.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3467 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (97.9 KB). Loaded Objects now: 3932.
-Memory consumption went from 141.7 MB to 141.6 MB.
-Total: 3.350400 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.863100 ms  DeleteObjects: 0.166900 ms)
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (122.0 KB). Loaded Objects now: 3937.
+Memory consumption went from 146.5 MB to 146.4 MB.
+Total: 2.681900 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.123200 ms MarkObjects: 2.183700 ms  DeleteObjects: 0.155000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,449 +187,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 838936.066293 seconds.
-  path: Assets/Scenes/ToyProject.unity
-  artifactKey: Guid(50b13834c46f68b4ca80bb21228a28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ToyProject.unity using Guid(50b13834c46f68b4ca80bb21228a28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb46c84e3500a67de2d840123e8ef9e') in 0.002402 seconds
+  Time since last request: 7084.119134 seconds.
+  path: Assets/Scripts/ClassStudy/Player.cs
+  artifactKey: Guid(cf148d049aad0c54b9d2efe99c1ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ClassStudy/Player.cs using Guid(cf148d049aad0c54b9d2efe99c1ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6847dcf674c31ed412835dde5fe2b945') in 0.002799 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 26.860506 seconds.
-  path: Assets/ProBuilder Data/Default Material Palette.asset
-  artifactKey: Guid(8802ba89d9bb1e742a34c4c27f7e00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(8802ba89d9bb1e742a34c4c27f7e00d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd943cda71afe5e3e89bab6f75cce4b49') in 0.009520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 3.451103 seconds.
-  path: Assets/Model/kit
-  artifactKey: Guid(53404d0207c64b74f9eb6054390cbd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit using Guid(53404d0207c64b74f9eb6054390cbd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2769ffaed083a1f245a8d5e108da6acb') in 0.000597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.711310 seconds.
-  path: Assets/Model/kit/Models
-  artifactKey: Guid(5a50ef4163dbbe940948266e24d7b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models using Guid(5a50ef4163dbbe940948266e24d7b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ebe534f21d02d59175dfda2613c6d8') in 0.000551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.643766 seconds.
-  path: Assets/Model/kit/Models/FBX format
-  artifactKey: Guid(590cb79b637501d4dbc11a82f9f2585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format using Guid(590cb79b637501d4dbc11a82f9f2585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3964029c8da4cd246e6cec5f97729513') in 0.000541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.107399 seconds.
-  path: Assets/Model/kit/Models/FBX format/animal-bison.fbx
-  artifactKey: Guid(9c04379b11f8f50478840c83156e0f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/animal-bison.fbx using Guid(9c04379b11f8f50478840c83156e0f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc0dac27c35ddd9d951fd1c214c130e') in 0.302750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 42
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Model/kit/Models/FBX format/door-rotate.fbx
-  artifactKey: Guid(0e89fc763ab2a7f4c93e19d265e19442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/door-rotate.fbx using Guid(0e89fc763ab2a7f4c93e19d265e19442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61debc93e5e841ee558e32b303be9ddd') in 0.025708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Model/kit/Models/FBX format/crate.fbx
-  artifactKey: Guid(e4ab60e6c7436ef43a01664e804148a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/crate.fbx using Guid(e4ab60e6c7436ef43a01664e804148a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b40c2abd4de04dd221582ec5679c762') in 0.018257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/flag.fbx
-  artifactKey: Guid(b60ce14dbd7df884897c4d3412c4801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/flag.fbx using Guid(b60ce14dbd7df884897c4d3412c4801e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2aa80f2aab19250bde7b7e06a1b431') in 0.020633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-doorway.fbx
-  artifactKey: Guid(bf99efa14e298874a9741a90f66b610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/indicator-doorway.fbx using Guid(bf99efa14e298874a9741a90f66b610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d5c084142e02d343fec04c44ef3155') in 0.014367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/animal-horse.fbx
-  artifactKey: Guid(68600270550109e43928a2e42918069d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/animal-horse.fbx using Guid(68600270550109e43928a2e42918069d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a9c2fadda287bcb42431c66fd95b2d') in 0.051855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-a.fbx
-  artifactKey: Guid(873e02f359176ce4f8ce8a1d74faf831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-a.fbx using Guid(873e02f359176ce4f8ce8a1d74faf831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec807084e62b769460e48bf324e410') in 0.029300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-square-a.fbx
-  artifactKey: Guid(77f085a45e3b85642945feeec2568616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/indicator-square-a.fbx using Guid(77f085a45e3b85642945feeec2568616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd955ff53e00a46e0bc69665119980b') in 0.016170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-e.fbx
-  artifactKey: Guid(ee392b49820a0b6478e60798c627e24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-e.fbx using Guid(ee392b49820a0b6478e60798c627e24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aed8b16352bc071cf270c1dab50c75c') in 0.015441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/door-sliding-double-round.fbx
-  artifactKey: Guid(3259303de9b325c4bbf22c518e4ce080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/door-sliding-double-round.fbx using Guid(3259303de9b325c4bbf22c518e4ce080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c842bdb5d51f0fc06933ef1b40bab8f1') in 0.021124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/figurine-cube.fbx
-  artifactKey: Guid(03507dc94857f444b8ba47245829ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/figurine-cube.fbx using Guid(03507dc94857f444b8ba47245829ba6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0be99e94702567d5b902004dfa9574') in 0.033113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/column.fbx
-  artifactKey: Guid(a0f2090d89a46aa4d990be9966978488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/column.fbx using Guid(a0f2090d89a46aa4d990be9966978488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1a99cc9d96a388127a30698f5c188a') in 0.025034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-thick-corner-diagonal.fbx
-  artifactKey: Guid(3774c84512001324595abe62b587ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/floor-thick-corner-diagonal.fbx using Guid(3774c84512001324595abe62b587ed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75b887936555d08e8315c8254b74e1f') in 0.012684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/crate-color.fbx
-  artifactKey: Guid(50d0cff26966f674e9e52dc33659b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/crate-color.fbx using Guid(50d0cff26966f674e9e52dc33659b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a67f18a8012c5b318e4df0ca8bd4131') in 0.014335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/button-floor-round-small.fbx
-  artifactKey: Guid(794e3500ce75aa244aea36d69e9e6ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/button-floor-round-small.fbx using Guid(794e3500ce75aa244aea36d69e9e6ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd982f4e082838db1fac1d29bb2f5944e') in 0.019243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-low.fbx
-  artifactKey: Guid(7f1a5ed7d644b574eb7ebc3771ca9d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/column-low.fbx using Guid(7f1a5ed7d644b574eb7ebc3771ca9d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd1f77e47b37f9950dede00ef830352') in 0.014269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-triangle.fbx
-  artifactKey: Guid(6692ef9582177f34aa655b699010f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/column-triangle.fbx using Guid(6692ef9582177f34aa655b699010f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88273ffc330a53a66d38d1d4e0e39a4d') in 0.013530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/ladder.fbx
-  artifactKey: Guid(4232e262320a2134c9daf777715adce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/ladder.fbx using Guid(4232e262320a2134c9daf777715adce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620289d2e7c2d6e959c736603e2fb17b') in 0.014112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-square.fbx
-  artifactKey: Guid(411ac45af4033ac4ba9ca6075f4fc70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/floor-square.fbx using Guid(411ac45af4033ac4ba9ca6075f4fc70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bd97b508ff513de675c8c6ff1331c9') in 0.013970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-rounded.fbx
-  artifactKey: Guid(6b0b57006ebbe7e4e8c5dfe5be4de833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/column-rounded.fbx using Guid(6b0b57006ebbe7e4e8c5dfe5be4de833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67b897fd8206a1a935a0b9f2a751d51') in 0.012024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-d.fbx
-  artifactKey: Guid(b537cc783cb24ad449bc870f7dbdb16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-d.fbx using Guid(b537cc783cb24ad449bc870f7dbdb16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb42609ed6d171d323b352db479f489b') in 0.015359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-small-diagonal.fbx
-  artifactKey: Guid(a37754c9be58ccc4eb40386474a0b604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/floor-small-diagonal.fbx using Guid(a37754c9be58ccc4eb40386474a0b604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03c831b6f67cf19cb18b41ed9ce7344') in 0.013635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-thick-corner-round.fbx
-  artifactKey: Guid(c180db896066f524a90a4056b59ebf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/floor-thick-corner-round.fbx using Guid(c180db896066f524a90a4056b59ebf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a637277676aef3fae9cdb0226560420') in 0.013665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-triangle-low.fbx
-  artifactKey: Guid(e3450e1a3f04c1b48a9126ae277f952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/column-triangle-low.fbx using Guid(e3450e1a3f04c1b48a9126ae277f952b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd6467472bd3a8b4b77039fc054b692') in 0.011977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/figurine.fbx
-  artifactKey: Guid(848fb82d82103f54f8508a4fad9f96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/figurine.fbx using Guid(848fb82d82103f54f8508a4fad9f96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3f110bd38867a19cdd4997e7ae173f') in 0.030465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-square-b.fbx
-  artifactKey: Guid(46e3cceb2dc597e4ba3c7214506c715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/indicator-square-b.fbx using Guid(46e3cceb2dc597e4ba3c7214506c715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c680753cebabf4eeb00c5e15e8fbac8') in 0.012623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Model/kit/Models/FBX format/button-floor-square.fbx
-  artifactKey: Guid(f073a5361ed9cff448e801ea3f9ad986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/button-floor-square.fbx using Guid(f073a5361ed9cff448e801ea3f9ad986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574cb0979fdda9b9e9d5af903f87c1a7') in 0.019708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/coin.fbx
-  artifactKey: Guid(919d39212a060ee449832259a6b8c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/coin.fbx using Guid(919d39212a060ee449832259a6b8c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998cf82fe5275fd178ca291b2e25df45') in 0.016818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/door-sliding.fbx
-  artifactKey: Guid(d1b321b3370ed244cbcd50c68e6b70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/door-sliding.fbx using Guid(d1b321b3370ed244cbcd50c68e6b70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040eafd077a4970c983b05e8818c31ef') in 0.018062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/lever-double.fbx
-  artifactKey: Guid(eeae71ff76239cb4ebd2862c1f2ecdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/lever-double.fbx using Guid(eeae71ff76239cb4ebd2862c1f2ecdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064cff7883d8d0a09f03148eabfd8f23') in 0.019360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.065091 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-1.fbx
-  artifactKey: Guid(87767bee1d242584fb58020b51560604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-1.fbx using Guid(87767bee1d242584fb58020b51560604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48880e76bcbc991238c034f850b3ec40') in 0.014801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-8.fbx
-  artifactKey: Guid(4f74285d72de7184b85d60fd8b04767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-8.fbx using Guid(4f74285d72de7184b85d60fd8b04767e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8b120a908508d26916ae7041c8e32f') in 0.014915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-5.fbx
-  artifactKey: Guid(42dc7071a5a71634baddec3de6f9e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-5.fbx using Guid(42dc7071a5a71634baddec3de6f9e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6dcdfed1eaee4ae9f3fc633b87943e') in 0.013143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-9.fbx
-  artifactKey: Guid(9820868007785934c9bced9cdbfa41f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-9.fbx using Guid(9820868007785934c9bced9cdbfa41f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a74cff1e812f942bbb250294a1d80b6') in 0.013749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-7.fbx
-  artifactKey: Guid(36786a06cd74b23489fb10f2707c8961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-7.fbx using Guid(36786a06cd74b23489fb10f2707c8961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c92bbb7a8daebcb66fc43300306603') in 0.013698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 11.036651 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-2.fbx
-  artifactKey: Guid(86ad67fdf26ad25468576ce4831fffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-double-2.fbx using Guid(86ad67fdf26ad25468576ce4831fffbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be47c36ec6adb01da08725792a8d3f0') in 0.017733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/pipe.fbx
-  artifactKey: Guid(6393fa07d1f1ac446a3d9722f762dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/pipe.fbx using Guid(6393fa07d1f1ac446a3d9722f762dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d267559994ca1a164400101e7553a8') in 0.017953 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/pipe-half-section.fbx
-  artifactKey: Guid(93b48e57aef22ba42bc18979792009ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/pipe-half-section.fbx using Guid(93b48e57aef22ba42bc18979792009ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f982eec94c8276f16ceaaf7407d5592') in 0.025398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-cube-half.fbx
-  artifactKey: Guid(aafc9aebeb2350042af8ea8f18f06fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/shape-cube-half.fbx using Guid(aafc9aebeb2350042af8ea8f18f06fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5754ea015085e9e02ac99722df3a7965') in 0.032514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-7.fbx
-  artifactKey: Guid(55919e2f221c0d74caa2d708374b6a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-double-7.fbx using Guid(55919e2f221c0d74caa2d708374b6a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e310545aa507348f559d617dbc6925c') in 0.024134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-4.fbx
-  artifactKey: Guid(cd46cfa664b39bf4dac1d75c9fa0657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/number-double-4.fbx using Guid(cd46cfa664b39bf4dac1d75c9fa0657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b19a2a1259456ec2198bf13b57ebc7') in 0.020722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/pipe-half.fbx
-  artifactKey: Guid(a59d13a0cbdd44841b2bfb214fb90607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/pipe-half.fbx using Guid(a59d13a0cbdd44841b2bfb214fb90607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852ce1024042007c80b38e02885e7019') in 0.023052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-cylinder.fbx
-  artifactKey: Guid(de70c8917e161a448ab95d540383f86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/kit/Models/FBX format/shape-cylinder.fbx using Guid(de70c8917e161a448ab95d540383f86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc6dd64acadc5ee1d53ba3da8e2273d') in 0.036709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 211.795520 seconds.
-  path: Assets/Materials/Base Color
-  artifactKey: Guid(3547eb64d2cf8b947bed01af65fa5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Base Color using Guid(3547eb64d2cf8b947bed01af65fa5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1d38266a479a2cf8535a2cc1ee0ab6') in 0.000860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.064173 seconds.
-  path: Assets/Materials/Base Color/Black.mat
-  artifactKey: Guid(a84c09761ec0ab94eaa287270bac4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Base Color/Black.mat using Guid(a84c09761ec0ab94eaa287270bac4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c53255868e4ebc5b2149a6088e3cc2') in 0.009243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.023292 seconds.
-  path: Assets/Materials/Base Color/Green.mat
-  artifactKey: Guid(8b446ca9576d3e84ead94636904204f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Base Color/Green.mat using Guid(8b446ca9576d3e84ead94636904204f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60dec5b84228439acab8edfcb05298d') in 0.011097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/Base Color/Red.mat
-  artifactKey: Guid(dbece3e066d576345b7f06449c91db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Base Color/Red.mat using Guid(dbece3e066d576345b7f06449c91db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01471fefbe69c7aa2cf7d59d10f394b6') in 0.009200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 38.021645 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.746987 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(a7e4f9866f249b0499b5557360ffdda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(a7e4f9866f249b0499b5557360ffdda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9a75e69693d92e728a63a0d577785b') in 0.000546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 56.955465 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(156ce387f9c694a4ba50c2ce5c2a2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(156ce387f9c694a4ba50c2ce5c2a2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4307d42a6a6deb8e5fe17dcc5fe9365c') in 0.001699 seconds
+  Time since last request: 380.227058 seconds.
+  path: Assets/Scripts/ClassStudy/Player.cs
+  artifactKey: Guid(cf148d049aad0c54b9d2efe99c1ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ClassStudy/Player.cs using Guid(cf148d049aad0c54b9d2efe99c1ac0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c56573175dc176d15881daee0e14749') in 0.000662 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.638 seconds
-Refreshing native plugins compatible for Editor in 9.67 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 8.10 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -637,46 +213,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.382 seconds
-Domain Reload Profiling: 2009ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  1.341 seconds
+Domain Reload Profiling: 1878ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (451ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (367ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
+		AnalyzeDomain (20ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1382ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1341ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
+		SetupLoadedEditorAssemblies (402ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
+			InitializePlatformSupportModulesInManaged (30ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (267ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 10.93 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 9.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3440 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (78.1 KB). Loaded Objects now: 3979.
-Memory consumption went from 137.3 MB to 137.2 MB.
-Total: 2.763500 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.324400 ms  DeleteObjects: 0.125900 ms)
+Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (78.2 KB). Loaded Objects now: 3940.
+Memory consumption went from 141.3 MB to 141.2 MB.
+Total: 3.002800 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.150900 ms MarkObjects: 2.547900 ms  DeleteObjects: 0.090600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -692,1141 +268,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7.613557 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(156ce387f9c694a4ba50c2ce5c2a2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(156ce387f9c694a4ba50c2ce5c2a2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ee23b6ccefb1e7a6a15bb2dd0b2afb') in 0.002424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 52.926538 seconds.
-  path: Assets/ProBuilder Data/Default Material Palette.asset
-  artifactKey: Guid(8802ba89d9bb1e742a34c4c27f7e00d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(8802ba89d9bb1e742a34c4c27f7e00d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b98c2020244dff7bb9772e1109629033') in 0.121830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-low.fbx
-  artifactKey: Guid(7f1a5ed7d644b574eb7ebc3771ca9d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/column-low.fbx using Guid(7f1a5ed7d644b574eb7ebc3771ca9d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4ce4788421277a95952bdb9ef60da34c') in 0.047669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/textures/PNG/Green/texture_13.png
-  artifactKey: Guid(413d20119b70aa14988bf439607ec677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/texture_13.png using Guid(413d20119b70aa14988bf439607ec677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4327d192efc120121c9085a5714bab30') in 0.055980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/textures/PNG/Dark/texture_01.png
-  artifactKey: Guid(00c78dee4bffba34f80bfd9109e5438d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/texture_01.png using Guid(00c78dee4bffba34f80bfd9109e5438d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '03d1ccc3f82f9588a8f227eef9ba40d8') in 0.034808 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Light/texture_10.png
-  artifactKey: Guid(591d376641450464e8a15f8568a39413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Light/texture_10.png using Guid(591d376641450464e8a15f8568a39413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b597636d0ad3a4096ff33d414f75583d') in 0.035792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Materials/textures/PNG/Green/texture_03.png
-  artifactKey: Guid(85b0bbd2d44a9444eb796863cfe37eb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/texture_03.png using Guid(85b0bbd2d44a9444eb796863cfe37eb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c2e1cb028721efadb369c48dafa9d98f') in 0.033757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_02.png
-  artifactKey: Guid(bafdd50b57cede74eabcaf5572d11c86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_02.png using Guid(bafdd50b57cede74eabcaf5572d11c86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9a3f870168f0c92372ce3c8801bb3782') in 0.031964 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Dark/texture_12.png
-  artifactKey: Guid(bb1da6b8a46af6d43b4383b552a72836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/texture_12.png using Guid(bb1da6b8a46af6d43b4383b552a72836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3b1d0438b0d6d8d81c6756476dc5457a') in 0.033757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_03.png
-  artifactKey: Guid(3603455da5b740c479816085a385eb3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_03.png using Guid(3603455da5b740c479816085a385eb3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aa9b3cf9a68551ec0048f52f552226cc') in 0.032109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Purple/texture_06.png
-  artifactKey: Guid(122ff282c7826dc4d9a0109a604ec568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Purple/texture_06.png using Guid(122ff282c7826dc4d9a0109a604ec568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1b991d27a873a15f8dfa45360e5e9f4f') in 0.032343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_12.png
-  artifactKey: Guid(388fde2106a43c0429cda247c31313f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_12.png using Guid(388fde2106a43c0429cda247c31313f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '811cef273e580334d1f7c6cecd158132') in 0.030112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Materials/textures/PNG/Purple/texture_02.png
-  artifactKey: Guid(8657ba91538a58a4784f861d482bea72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Purple/texture_02.png using Guid(8657ba91538a58a4784f861d482bea72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b5babe1fdd6e6727c19cfe7a88e28f25') in 0.035945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/ToyProject.unity
-  artifactKey: Guid(50b13834c46f68b4ca80bb21228a28d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/ToyProject.unity using Guid(50b13834c46f68b4ca80bb21228a28d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ca91baa025a9fe1d49b782081b500ff7') in 0.005615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Materials/textures/PNG/Green/texture_08.png
-  artifactKey: Guid(0e348ea06e9df2242a85026b4bd7b30d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/texture_08.png using Guid(0e348ea06e9df2242a85026b4bd7b30d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a5c55ee255484bac5dadbb3919b6e5cf') in 0.034060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_10.png
-  artifactKey: Guid(419fbea363de6b1449753dd1bd5639f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_10.png using Guid(419fbea363de6b1449753dd1bd5639f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e99d1aa99f9c51aabbdecd1bf263459f') in 0.031526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/button-floor-round-small.fbx
-  artifactKey: Guid(794e3500ce75aa244aea36d69e9e6ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/button-floor-round-small.fbx using Guid(794e3500ce75aa244aea36d69e9e6ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '540ad66793025724926beb9c69e6861f') in 0.022505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Model/kit/Models/FBX format/coin.fbx
-  artifactKey: Guid(919d39212a060ee449832259a6b8c8f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/coin.fbx using Guid(919d39212a060ee449832259a6b8c8f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3298197d0d856c0166ff19cce87b52ad') in 0.016922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Green/texture_10.png
-  artifactKey: Guid(930dc83df18c8be43b056b0533ff24d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/texture_10.png using Guid(930dc83df18c8be43b056b0533ff24d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2660a1cbe851569ff190532dd17af83f') in 0.031453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_02.png
-  artifactKey: Guid(28c40b41d829cb74183ca22a787813e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_02.png using Guid(28c40b41d829cb74183ca22a787813e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ee5769eab54dd82984b7c8477ac42747') in 0.031911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/Base Color/Yellow.mat
-  artifactKey: Guid(ad291e7f8733c844c8a2476500ff7903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/Base Color/Yellow.mat using Guid(ad291e7f8733c844c8a2476500ff7903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6931449c42cd47055408699043344c1a') in 0.006456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Purple/texture_11.png
-  artifactKey: Guid(00247d6a8e167ac41a728fb087ee0daf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Purple/texture_11.png using Guid(00247d6a8e167ac41a728fb087ee0daf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9e7765bd2db02df1bb9076d0eb1796d8') in 0.033107 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_04.png
-  artifactKey: Guid(478cbbc24d47f1b47bba331db0dd5e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_04.png using Guid(478cbbc24d47f1b47bba331db0dd5e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b0f85b99b7732c196b65da19ca5256d') in 0.031941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-triangle-low.fbx
-  artifactKey: Guid(e3450e1a3f04c1b48a9126ae277f952b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/column-triangle-low.fbx using Guid(e3450e1a3f04c1b48a9126ae277f952b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2510e074bdcf691905442abc2e598ddb') in 0.015971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/button-floor-round.fbx
-  artifactKey: Guid(e53888c1b0ea21744a249e00ebcd0be2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/button-floor-round.fbx using Guid(e53888c1b0ea21744a249e00ebcd0be2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a9ece70db7398bf8a0c0c319765cdb5a') in 0.024242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Light/texture_04.png
-  artifactKey: Guid(e84d641102d77bd4ba219dcad92bb11a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Light/texture_04.png using Guid(e84d641102d77bd4ba219dcad92bb11a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ad8eb805d6642e91bdf94b62d80f906a') in 0.030289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/textures/PNG/Dark/texture_08.png
-  artifactKey: Guid(5d0cc3d1a164b3e4098cc28552d18b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/texture_08.png using Guid(5d0cc3d1a164b3e4098cc28552d18b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b75ad519b47ad5fd9afaae4727d21aa5') in 0.034997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_09.png
-  artifactKey: Guid(bcbc83c0186307340a9212b063943135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_09.png using Guid(bcbc83c0186307340a9212b063943135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c37db3677fe08fe1521b2158437eba04') in 0.032945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_08.png
-  artifactKey: Guid(db0e680a7b2b7a944832eabc14d55de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_08.png using Guid(db0e680a7b2b7a944832eabc14d55de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dbfb50b96046dca34c0a1b8d397da3f3') in 0.031334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_12.png
-  artifactKey: Guid(c9be96c5e8ff28046be6269000f3930f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_12.png using Guid(c9be96c5e8ff28046be6269000f3930f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a874b3384c9cc08a855b21620f17c45f') in 0.033982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/textures/PNG/Light/texture_07.png
-  artifactKey: Guid(3ab1e91fbd9ce8f4fb97f50f46cbcdcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Light/texture_07.png using Guid(3ab1e91fbd9ce8f4fb97f50f46cbcdcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7b049e4d34ed55fad3af9ff64500431a') in 0.043315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-rounded.fbx
-  artifactKey: Guid(6b0b57006ebbe7e4e8c5dfe5be4de833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/column-rounded.fbx using Guid(6b0b57006ebbe7e4e8c5dfe5be4de833) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15c55e2692902df596ebab03b309639e') in 0.024297 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/door-rotate.fbx
-  artifactKey: Guid(0e89fc763ab2a7f4c93e19d265e19442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/door-rotate.fbx using Guid(0e89fc763ab2a7f4c93e19d265e19442) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1981e53163a6bf49a9d9e98101006f27') in 0.027180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/ladder-color.fbx
-  artifactKey: Guid(a4795a5b3cdaa4b4eace3b6985caccbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/ladder-color.fbx using Guid(a4795a5b3cdaa4b4eace3b6985caccbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd7af08f8d607fe17308cb7880087fbf0') in 0.030581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-triangle.fbx
-  artifactKey: Guid(6692ef9582177f34aa655b699010f960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/column-triangle.fbx using Guid(6692ef9582177f34aa655b699010f960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b10697621ae9768afd31f5a92663649a') in 0.024591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Model/kit/Models/FBX format/door-sliding-double.fbx
-  artifactKey: Guid(cc52eaa3e4a08724697d979c11b9249c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/door-sliding-double.fbx using Guid(cc52eaa3e4a08724697d979c11b9249c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04aedf2f4b0d580d89f06c9b53b88be9') in 0.028057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-a.fbx
-  artifactKey: Guid(873e02f359176ce4f8ce8a1d74faf831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-a.fbx using Guid(873e02f359176ce4f8ce8a1d74faf831) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9115a9770b594706505a4acde700cad') in 0.020651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-thick-corner-round.fbx
-  artifactKey: Guid(c180db896066f524a90a4056b59ebf3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/floor-thick-corner-round.fbx using Guid(c180db896066f524a90a4056b59ebf3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '99453c6b0bf94d5d8eaf0d73592b5f3e') in 0.020528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/figurine-cube-detailed.fbx
-  artifactKey: Guid(e420b6563b9b2324bb3607d5cf1c91e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/figurine-cube-detailed.fbx using Guid(e420b6563b9b2324bb3607d5cf1c91e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '28c710703de18745263d147fb9f59da3') in 0.070302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/ladder.fbx
-  artifactKey: Guid(4232e262320a2134c9daf777715adce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/ladder.fbx using Guid(4232e262320a2134c9daf777715adce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9840622b8bea1e4da020bfcfa03a9d74') in 0.019551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/lever-double.fbx
-  artifactKey: Guid(eeae71ff76239cb4ebd2862c1f2ecdff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/lever-double.fbx using Guid(eeae71ff76239cb4ebd2862c1f2ecdff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '629509ea4c5a51ba852b1abf0ad1925b') in 0.025699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-f.fbx
-  artifactKey: Guid(071a60f49e1b58c47b0489429c4b4a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-f.fbx using Guid(071a60f49e1b58c47b0489429c4b4a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e5bc544f82f4eba441f5cc51168c7d12') in 0.020878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-thick.fbx
-  artifactKey: Guid(f0b4543c5bc5b64408b2cc512c592570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/floor-thick.fbx using Guid(f0b4543c5bc5b64408b2cc512c592570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '37a1e134163ffd6e0049e9dcf37549f1') in 0.020891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-c.fbx
-  artifactKey: Guid(2ed9319729566cb4e866864d77be5175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-c.fbx using Guid(2ed9319729566cb4e866864d77be5175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bbccf740e1006a973d89a131c63fe0d4') in 0.022101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-thick-corner-diagonal.fbx
-  artifactKey: Guid(3774c84512001324595abe62b587ed4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/floor-thick-corner-diagonal.fbx using Guid(3774c84512001324595abe62b587ed4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ba35fa5a3255871d22dbfe4f731d70dc') in 0.022075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/flag.fbx
-  artifactKey: Guid(b60ce14dbd7df884897c4d3412c4801e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/flag.fbx using Guid(b60ce14dbd7df884897c4d3412c4801e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2ea621174da0394e4d01c2883e6cfa98') in 0.023215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/figurine-cube.fbx
-  artifactKey: Guid(03507dc94857f444b8ba47245829ba6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/figurine-cube.fbx using Guid(03507dc94857f444b8ba47245829ba6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6885e90e08ff463fa97456c149eb6cac') in 0.079431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-1.fbx
-  artifactKey: Guid(c1ab82f013ef41e4db0392d7ee0e4b12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-1.fbx using Guid(c1ab82f013ef41e4db0392d7ee0e4b12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1f640281b3ae7cbe9f2793480c83170') in 0.022188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-diagonal.fbx
-  artifactKey: Guid(f43d9cb69e8055a44a5a0e5dfe73f90e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/floor-diagonal.fbx using Guid(f43d9cb69e8055a44a5a0e5dfe73f90e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '47e6f125a856a2c95d491dcbf74691c6') in 0.020095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-5.fbx
-  artifactKey: Guid(1ed8cd12eabd85442bfb012014399de9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-5.fbx using Guid(1ed8cd12eabd85442bfb012014399de9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'df786289b939601c3b15dbf4401feab5') in 0.020803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-cylinder.fbx
-  artifactKey: Guid(de70c8917e161a448ab95d540383f86f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-cylinder.fbx using Guid(de70c8917e161a448ab95d540383f86f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5992ad4a230a90d6250794ceb490552e') in 0.019775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-cylinder-half-detailed.fbx
-  artifactKey: Guid(fb599ba98752eb144986d6daa858e9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-cylinder-half-detailed.fbx using Guid(fb599ba98752eb144986d6daa858e9de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd714e2ef056f8c26cd80f2b555612e16') in 0.023179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-4.fbx
-  artifactKey: Guid(cd46cfa664b39bf4dac1d75c9fa0657c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-4.fbx using Guid(cd46cfa664b39bf4dac1d75c9fa0657c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '61c6ac55499e4c4e4eeb6fd311b34322') in 0.016979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-6.fbx
-  artifactKey: Guid(ae8d3cc03eca6b74593117dce60eee60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-6.fbx using Guid(ae8d3cc03eca6b74593117dce60eee60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04de8562b891b7040ffe76d1b512e66b') in 0.017704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/stairs-diagonal-narrow.fbx
-  artifactKey: Guid(86fecd4a0e9415c4ea27fe372ea58137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/stairs-diagonal-narrow.fbx using Guid(86fecd4a0e9415c4ea27fe372ea58137) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e49f6d021e9c8baec67cd810efeab950') in 0.018609 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-e.fbx
-  artifactKey: Guid(ee392b49820a0b6478e60798c627e24e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-e.fbx using Guid(ee392b49820a0b6478e60798c627e24e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b56af6c1a3c1bafbc665cb6f06ece5af') in 0.018630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-triangular-prism-low.fbx
-  artifactKey: Guid(f871f2ac8d79b3047b82f033e944a982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-triangular-prism-low.fbx using Guid(f871f2ac8d79b3047b82f033e944a982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aeb4247481969a6d4c41e798b8c5f728') in 0.017389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-square-e.fbx
-  artifactKey: Guid(5256c9f070d8e1f4fa3ce298361b1f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-square-e.fbx using Guid(5256c9f070d8e1f4fa3ce298361b1f9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e5670f952446503122bb91b454bdb45a') in 0.020631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-hexagon.fbx
-  artifactKey: Guid(7f9ab979ff9ba9046a2b2c231fc89148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-hexagon.fbx using Guid(7f9ab979ff9ba9046a2b2c231fc89148) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b6ee9ab33dcb2d92de74288844c8b80a') in 0.017716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/textures/PNG/Purple/texture_07.png
-  artifactKey: Guid(07c0a4d28e3b2444daf347141576e120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Purple/texture_07.png using Guid(07c0a4d28e3b2444daf347141576e120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3d83344ce59561edd242b3052a612e13') in 0.036245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Model/kit/Models/FBX format/stairs-diagonal-small-narrow.fbx
-  artifactKey: Guid(e6ebd27b434778f4da1b5d24bed38fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/stairs-diagonal-small-narrow.fbx using Guid(e6ebd27b434778f4da1b5d24bed38fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55399e7c2d1c827fb366abca534fd8a1') in 0.016123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_11.png
-  artifactKey: Guid(515f388114d83224fa1cf4126301a844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_11.png using Guid(515f388114d83224fa1cf4126301a844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '594d74e82c3b2fe478ecfbe3f0a06bff') in 0.034066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/column-rounded-low.fbx
-  artifactKey: Guid(141e47596e3d050479ab5a7c1bce4aca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/column-rounded-low.fbx using Guid(141e47596e3d050479ab5a7c1bce4aca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c21907c5331bb0a341197beb2645fa85') in 0.020121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Model/kit/Models/FBX format/floor-small-square.fbx
-  artifactKey: Guid(2e6c1ad78d8e47846a6d233ca08183c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/floor-small-square.fbx using Guid(2e6c1ad78d8e47846a6d233ca08183c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '354428bdb18a087f6f57e620e24910ba') in 0.016504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-0.fbx
-  artifactKey: Guid(6f6a76ecad9cc3146bffc2186ee27b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-0.fbx using Guid(6f6a76ecad9cc3146bffc2186ee27b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13b27a03b543bb7df16eeb3684d1270d') in 0.018154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-6.fbx
-  artifactKey: Guid(6473852bfeba54540ba3d974269af9c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-6.fbx using Guid(6473852bfeba54540ba3d974269af9c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'de5b7bec5ec2108037a3715aaa6be556') in 0.017111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Materials/textures/PNG/Red/texture_06.png
-  artifactKey: Guid(5b3742b7fc8d0be4bb27b28fd9816d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Red/texture_06.png using Guid(5b3742b7fc8d0be4bb27b28fd9816d07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '977a71f805b72050fb7f3926b43f1661') in 0.033865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/figurine.fbx
-  artifactKey: Guid(848fb82d82103f54f8508a4fad9f96d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/figurine.fbx using Guid(848fb82d82103f54f8508a4fad9f96d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13cec735f1d14dd9dcd351065230e74d') in 0.058942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-3.fbx
-  artifactKey: Guid(ebec72a8706a9d4499c4ff4a83fd1452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-3.fbx using Guid(ebec72a8706a9d4499c4ff4a83fd1452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6f6c5639e655d674d4d4f698bb7a9931') in 0.019776 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_11.png
-  artifactKey: Guid(037708953a6d18140b4b8906458f9382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_11.png using Guid(037708953a6d18140b4b8906458f9382) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'be2e5ef994fe1973439fa221ad46b22c') in 0.032653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-square-b.fbx
-  artifactKey: Guid(46e3cceb2dc597e4ba3c7214506c715b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-square-b.fbx using Guid(46e3cceb2dc597e4ba3c7214506c715b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9acb0547366f56a5af55c8c70379325') in 0.017022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-hollow-hexagon-half.fbx
-  artifactKey: Guid(a8c91bd3e2c9ec144882f28888fee320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-hollow-hexagon-half.fbx using Guid(a8c91bd3e2c9ec144882f28888fee320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9f5474f2d720444fa1f3e242d363dac0') in 0.017699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Materials/Base Color/Black.mat
-  artifactKey: Guid(a84c09761ec0ab94eaa287270bac4396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/Base Color/Black.mat using Guid(a84c09761ec0ab94eaa287270bac4396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ea76e40f0c613cc2110d0b4eda7c2501') in 0.006912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Light/texture_03.png
-  artifactKey: Guid(4cef175b46a376943ae32dd603357234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Light/texture_03.png using Guid(4cef175b46a376943ae32dd603357234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1d2fdf6267bc6b2b054c8685197f0390') in 0.034249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Materials/textures/PNG/Green/texture_02.png
-  artifactKey: Guid(6683d4b3747935543b1ab564dde9809f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/texture_02.png using Guid(6683d4b3747935543b1ab564dde9809f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ccc14cce1f9bc5d00842815aba26c7f3') in 0.033379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_09.png
-  artifactKey: Guid(97c7d747ab6588e40b18a89ab36e1d7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_09.png using Guid(97c7d747ab6588e40b18a89ab36e1d7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a2e01f1e2363f61afaa79eaf50ed8fd9') in 0.032228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-hollow-cylinder.fbx
-  artifactKey: Guid(9eb66b9cc2f0a964294140df4e60f57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-hollow-cylinder.fbx using Guid(9eb66b9cc2f0a964294140df4e60f57e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '43a99c69ed314c2ce4b60403fbf41c15') in 0.015892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-8.fbx
-  artifactKey: Guid(9e2a0abcc4dfd13469390d2899c941ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-8.fbx using Guid(9e2a0abcc4dfd13469390d2899c941ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4f1dfb1a1825f1b5ec064cc31ac8814c') in 0.015254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-triangular-prism.fbx
-  artifactKey: Guid(88544e4e6bfa116418a3be10ebcfc9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-triangular-prism.fbx using Guid(88544e4e6bfa116418a3be10ebcfc9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'db7987d2f735559a7f1a859e6ff9496f') in 0.016214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-cube-half.fbx
-  artifactKey: Guid(aafc9aebeb2350042af8ea8f18f06fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-cube-half.fbx using Guid(aafc9aebeb2350042af8ea8f18f06fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4859de0de0e441e33b9c3797d8ec5828') in 0.015244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/stairs-narrow.fbx
-  artifactKey: Guid(e5594f4328e93084da349760b23570b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/stairs-narrow.fbx using Guid(e5594f4328e93084da349760b23570b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a6124c5e0c8fcb5a7345ed35c95385c0') in 0.015854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-3.fbx
-  artifactKey: Guid(bcda055190ef40a40b409a46a2e5a7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-3.fbx using Guid(bcda055190ef40a40b409a46a2e5a7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e6ab02c84ab151f22fa3fe017121e4bc') in 0.014200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/animal-horse.fbx
-  artifactKey: Guid(68600270550109e43928a2e42918069d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/animal-horse.fbx using Guid(68600270550109e43928a2e42918069d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '67d45dc14ee1126c542bff0a7db0f9d0') in 0.023122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 52
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-square-c.fbx
-  artifactKey: Guid(189db5e00a510724e858f04fd515c2e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-square-c.fbx using Guid(189db5e00a510724e858f04fd515c2e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7bd9fc373f53aeebbd0443f943a21f6a') in 0.015985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Model/kit/Models/FBX format/stairs-diagonal.fbx
-  artifactKey: Guid(0e31381c6a8f7074eaf7fd182c55a76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/stairs-diagonal.fbx using Guid(0e31381c6a8f7074eaf7fd182c55a76c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62ff4db39353cb1ee987c1680c085c51') in 0.015999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Purple/texture_13.png
-  artifactKey: Guid(172e06602dbbcc744adb33fab82ec207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Purple/texture_13.png using Guid(172e06602dbbcc744adb33fab82ec207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1d7a294b0704a41274ca6a28a239c433') in 0.030215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/pipe-split.fbx
-  artifactKey: Guid(412f5f2d394315d4590d23f1cc0bbbb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/pipe-split.fbx using Guid(412f5f2d394315d4590d23f1cc0bbbb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '631a9c46b47553bca2dc781094ac1766') in 0.014320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/number-double-9.fbx
-  artifactKey: Guid(417e37264c6426944af2e04fb8b6db92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/number-double-9.fbx using Guid(417e37264c6426944af2e04fb8b6db92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b02c85fc2d628ca871eb2549018364a6') in 0.019025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_05.png
-  artifactKey: Guid(bcb82be7b17599d4395f55deb3477f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_05.png using Guid(bcb82be7b17599d4395f55deb3477f72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '15fd0625441741a853b4d1329a5238d9') in 0.029052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Dark/texture_06.png
-  artifactKey: Guid(8f80e2503e9180e4aa49c7374354b8a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/texture_06.png using Guid(8f80e2503e9180e4aa49c7374354b8a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '018aebf1d3c33eee66fc1d60acd4f413') in 0.028795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Materials/textures/PNG/Light/texture_08.png
-  artifactKey: Guid(327a510c520580840a0576ecbd449efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Light/texture_08.png using Guid(327a510c520580840a0576ecbd449efd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4582851f53f9f2d1ad24435622092b68') in 0.031768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Orange/texture_01.png
-  artifactKey: Guid(9b639475bad382f45aab0444785940c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/texture_01.png using Guid(9b639475bad382f45aab0444785940c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dc7bd1ad38e27f82e382f512c6aead9a') in 0.031687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-round-d.fbx
-  artifactKey: Guid(b537cc783cb24ad449bc870f7dbdb16a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-round-d.fbx using Guid(b537cc783cb24ad449bc870f7dbdb16a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62b0e06201aeebb2f10ed89fa5bc57a2') in 0.017267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-window-cutout-medium.fbx
-  artifactKey: Guid(b5f14aa2931b90247a310924584c37fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-window-cutout-medium.fbx using Guid(b5f14aa2931b90247a310924584c37fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4309c35f5b743b286e93e3bcc5f005a3') in 0.018294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/weapon-sword.fbx
-  artifactKey: Guid(c4e3db64edccf4641977ff8b4cec804d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/weapon-sword.fbx using Guid(c4e3db64edccf4641977ff8b4cec804d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a2c7cffcd273f81dda85e0a688f094d7') in 0.019028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/target-b-square.fbx
-  artifactKey: Guid(4b86d8d1f5767ad40baa39cad1c95976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/target-b-square.fbx using Guid(4b86d8d1f5767ad40baa39cad1c95976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b7093754a577d779945f270c4749d33a') in 0.018499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Green/Materials/texture_07.mat
-  artifactKey: Guid(21ca1c806e82a334cba77ca5aaf63ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/Materials/texture_07.mat using Guid(21ca1c806e82a334cba77ca5aaf63ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '42606e8e7a483e2589f7a0aaac4a3d96') in 0.008685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/Textures/colormap.png
-  artifactKey: Guid(e1ee93f951af2754ca7571ba73051b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/Textures/colormap.png using Guid(e1ee93f951af2754ca7571ba73051b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c29872552ed54507f15f67265ed7b0ac') in 0.032704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-window-large.fbx
-  artifactKey: Guid(7c05e02202a500e4f9d8b79786be8340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-window-large.fbx using Guid(7c05e02202a500e4f9d8b79786be8340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '66ad2cf48f3363b363507767a31f1bca') in 0.018005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Green/Materials/texture_04.mat
-  artifactKey: Guid(43e4dfb4f441bbb498f0525e8663d332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/Materials/texture_04.mat using Guid(43e4dfb4f441bbb498f0525e8663d332) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '246bb1a1bb10be3e06ec4c15b4f348fa') in 0.008779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Dark/Materials/texture_13.mat
-  artifactKey: Guid(fd4658ff64fce544ea71614428c9a728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/Materials/texture_13.mat using Guid(fd4658ff64fce544ea71614428c9a728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0d9f6040fe4b23ce6d810012ef6e1d18') in 0.007655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-diagonal.fbx
-  artifactKey: Guid(65ea231329244d246961ba75c2453a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-diagonal.fbx using Guid(65ea231329244d246961ba75c2453a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7cd8674a92088e4b4870ee65dee0145f') in 0.017358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-doorway-round.fbx
-  artifactKey: Guid(9200ca34e53101d4492bf7791da9f947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-doorway-round.fbx using Guid(9200ca34e53101d4492bf7791da9f947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd48dea70c6f22781ecdbbe767c23a24e') in 0.017402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/textures/PNG/Dark/Materials/texture_12.mat
-  artifactKey: Guid(357649412c6815a439337ce4ba99acef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/Materials/texture_12.mat using Guid(357649412c6815a439337ce4ba99acef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3414cc26726d14a4cc2afe0655a6dc51') in 0.008370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/vehicle-convertible.fbx
-  artifactKey: Guid(91fe60eff989baf438de633121c33fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/vehicle-convertible.fbx using Guid(91fe60eff989baf438de633121c33fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '11d5ebf7a061be1f501ae064f98bfec1') in 0.019545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/textures/PNG/Orange/Materials/texture_04.mat
-  artifactKey: Guid(654a61c4947e53b4697d3ea264ee2073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Orange/Materials/texture_04.mat using Guid(654a61c4947e53b4697d3ea264ee2073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b3145b58ca45f9b80bb4b9e7b6c4e176') in 0.007264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-diagonal-low.fbx
-  artifactKey: Guid(d1c5a387fcf72d348b720e8564fa153b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-diagonal-low.fbx using Guid(d1c5a387fcf72d348b720e8564fa153b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2f5b78b2e3e7ec408e96868d4982d350') in 0.017910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/textures/PNG/Green/Materials/texture_08.mat
-  artifactKey: Guid(c5f0b9fc2b49b1d44a3a380122e813b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/Materials/texture_08.mat using Guid(c5f0b9fc2b49b1d44a3a380122e813b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e5a6a71957079272656ef6b3de7923a0') in 0.008961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/textures/PNG/Dark/Materials/texture_11.mat
-  artifactKey: Guid(23f86f7dcc0dc5d4ebdf162868c34beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Dark/Materials/texture_11.mat using Guid(23f86f7dcc0dc5d4ebdf162868c34beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b35334e685e4f9c9912c6f25fb753929') in 0.007841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-doorway-wide.fbx
-  artifactKey: Guid(0a9c6bdc49d2dd04a88240187663112e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-doorway-wide.fbx using Guid(0a9c6bdc49d2dd04a88240187663112e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '791b423e8e41d46255ec0ea4c1530ca4') in 0.018135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/textures/PNG/Green/Materials/texture_03.mat
-  artifactKey: Guid(826391b16d404a449aac9005e6f836d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/Materials/texture_03.mat using Guid(826391b16d404a449aac9005e6f836d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '01f5b4f64d570fb7395a2c3ad140010a') in 0.010113 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-window-barred-medium.fbx
-  artifactKey: Guid(2a37cd64fdcb13f4083067ae1a9ed883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-window-barred-medium.fbx using Guid(2a37cd64fdcb13f4083067ae1a9ed883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e9d511bf31bf483b496443e1fa71ae9b') in 0.015841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-corner.fbx
-  artifactKey: Guid(68d1ec82a3250144699e8252af892a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-corner.fbx using Guid(68d1ec82a3250144699e8252af892a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6945af93237bc85b3ba2ce50bd302fce') in 0.019713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-window-cutout-small.fbx
-  artifactKey: Guid(432026ae9d2b3784e8d348c271a77a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-window-cutout-small.fbx using Guid(432026ae9d2b3784e8d348c271a77a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '30ecd8efe8cc195e3009c8abd9bc032e') in 0.019418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/wheelchair.fbx
-  artifactKey: Guid(6691756679ea6f14c90020da482b86ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wheelchair.fbx using Guid(6691756679ea6f14c90020da482b86ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '59892d52412524508f2c7394e3a3805f') in 0.019723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Green/Materials/texture_05.mat
-  artifactKey: Guid(341fbb570a7c9ba458233aef5c2de6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/Materials/texture_05.mat using Guid(341fbb570a7c9ba458233aef5c2de6e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55f1f82ad9edea0a41b5af7892634a51') in 0.009954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/vehicle.fbx
-  artifactKey: Guid(00c968911cccb524990e8cdf52768d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/vehicle.fbx using Guid(00c968911cccb524990e8cdf52768d32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a65d5b4f909bec32a4aa0e5c6b24fd16') in 0.020640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-window-medium.fbx
-  artifactKey: Guid(c1f75737b4a932c49b2b520226f6fc24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-window-medium.fbx using Guid(c1f75737b4a932c49b2b520226f6fc24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a71032fd7f6a143caeead488b0b1b1a1') in 0.018636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/textures/PNG/Green/Materials/texture_10.mat
-  artifactKey: Guid(f597758245fc52b47937a449894e2694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Green/Materials/texture_10.mat using Guid(f597758245fc52b47937a449894e2694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1d0f22094e5a081a9e7734a9aa5be8c3') in 0.008762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-corner-low.fbx
-  artifactKey: Guid(7fe814371914d0441a277ddac2d0ac1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-corner-low.fbx using Guid(7fe814371914d0441a277ddac2d0ac1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '67b508f76c67c30a946006ef7501cefb') in 0.018222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-hollow-cylinder-detailed.fbx
-  artifactKey: Guid(34fc7497fa59be04ead7e2b48e826617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-hollow-cylinder-detailed.fbx using Guid(34fc7497fa59be04ead7e2b48e826617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3bfb8974742578e406e72508cc06d20c') in 0.019130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Model/kit/Models/FBX format/indicator-special-arrow.fbx
-  artifactKey: Guid(448649864ac970841b1b2e4d9cb09456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/indicator-special-arrow.fbx using Guid(448649864ac970841b1b2e4d9cb09456) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '87bbdfcbb134d76d7ef3296eced1bd9e') in 0.020913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/kit/Models/FBX format/wall-doorway-sliding.fbx
-  artifactKey: Guid(e0841a02181a6194198fc304963f819e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/wall-doorway-sliding.fbx using Guid(e0841a02181a6194198fc304963f819e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b62497422d0bef6372dca837af2101c') in 0.017971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Materials/textures/PNG/Light/texture_11.png
-  artifactKey: Guid(a84d9931891c6c64bbd399fd327d06fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Light/texture_11.png using Guid(a84d9931891c6c64bbd399fd327d06fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '837830107560c8238458bb4aa4edc328') in 0.036560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Model/kit/Models/FBX format/shape-hollow-hexagon.fbx
-  artifactKey: Guid(3e88547e96bdec94883eabc69afbf553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Model/kit/Models/FBX format/shape-hollow-hexagon.fbx using Guid(3e88547e96bdec94883eabc69afbf553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ce5f98d297d093b862a902119a6ea4bf') in 0.020557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/textures/PNG/Purple/texture_08.png
-  artifactKey: Guid(ffb2664bb244c7c4d9d1b0e8393ac536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Materials/textures/PNG/Purple/texture_08.png using Guid(ffb2664bb244c7c4d9d1b0e8393ac536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7a5272336c762a748e10a52b6b23aede') in 0.071587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
