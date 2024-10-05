@@ -22,13 +22,13 @@ namespace ClassStudy
             //  플레이어의 위치 X : 3.4으로 이동한다.
             // 너의 Transform의 Position의 X를 3.4로 바꿔라
             // 1. 위치를 이동
-            transform.position = new Vector3(3.37f, 17.83f, -12.76936f);
+            //transform.position = new Vector3(3.37f, 17.83f, -12.76936f);
 
             // 2. 회전
-            transform.Rotate(new Vector3(0, 0, 0));
+            //transform.Rotate(new Vector3(0, 0, 0));
 
             // 3. 크기 변경
-            transform.localScale = new Vector3(1, 1, 1);
+            //transform.localScale = new Vector3(1, 1, 1);
 
             //transform.position.X = 3.4;
            
