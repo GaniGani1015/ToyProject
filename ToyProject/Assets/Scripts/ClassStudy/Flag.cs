@@ -11,7 +11,7 @@ namespace UnityLearn
         {
             Debug.Log("저의 이름은 깃발입니다. 도착지점에 대한 기능을 구현합니다.");
 
-            transform.Rotate(new Vector3(90, 90, 90));
+            transform.Rotate(new Vector3(0, 0, 0));
         }
 
         // Update is called once per frame
